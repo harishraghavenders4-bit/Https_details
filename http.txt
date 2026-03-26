@@ -1,0 +1,81 @@
+TOPICS: HTTPS AND HTTPS
+
+
+1.What is HTTP?
+
+
+Ans:HTTP (HyperText Transfer Protocol) is a set of rules used for transferring data between a web browser and a web server.
+* It is used to load web pages.
+* Data is sent in plain text (not secure).
+* Anyone can potentially see the data (like passwords).
+🔹 Example:
+When you visit a website like:
+http://example.com
+Your browser sends a request to the server:
+“Give me this webpage”
+The server responds by sending the webpage data back.
+
+
+2.What is HTTPS?
+HTTPS (HyperText Transfer Protocol Secure) is the secure version of HTTP.
+* It uses encryption (SSL/TLS) to protect data.
+* Data cannot be easily read or hacked.
+* Used for secure websites (banking, login pages, etc.)
+🔹 Example:
+https://example.com
+Here:
+* Your data (password, card details) is encrypted
+* Even if someone intercepts it, they cannot read it
+
+
+3. Difference Between HTTP and HTTPS
+
+
+Feature
+	HTTP
+	HTTPS
+	Security
+	 Not secure
+	 Secure (encrypted)
+	Data Transfer
+	Plain text
+	Encrypted data
+	URL Prefix
+	http://
+	https://
+	Use Case
+	Normal websites
+	Login, banking, payments
+	
+
+4.Why do we use HTTP?
+HTTP is the basic way to load web pages.
+ Reasons:
+* Simple and fast (no encryption overhead)
+* Used for non-sensitive data
+* Works well for basic content like:
+   * Blogs
+   * News sites
+   * Public information
+ Example:
+Opening:
+http://example.com
+You’re just reading content → no login, no password → HTTP is enough.
+
+
+
+
+5.Why do we use HTTPS?
+HTTPS is used when security is important.
+ Reasons:
+* Protects sensitive data (passwords, card details)
+* Prevents hackers from stealing information
+* Builds trust (you see  lock in browser)
+* Required for:
+   * Login systems
+   * Online payments
+   * Banking
+   * Social media
+Example:
+https://gmail.com
+When you log in, your username & password are encrypted.
